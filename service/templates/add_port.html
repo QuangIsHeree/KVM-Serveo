@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KVM-Router - Add Port</title>
+    <title>KVM-Serveo - Add Port</title>
     <style>
         body {
             margin: 0;
@@ -42,20 +42,20 @@
 </head>
 <body>
     <div class="sidebar">
-        <h2>KVM-Router</h2>
+        <h2>KVM-Serveo</h2>
         <a href="/dashboard">Port Dashboard</a>
         <a href="/remove_port">Remove Port</a>
     </div>
     <div class="content">
         <h2>Add Port</h2>
         <form method="post">
-            <label for="router_port">Router Port:</label>
+            <label for="router_port">Public Port:</label>
             <input type="text" id="router_port" name="router_port" required>
             <br><br>
-            <label for="target_port">Target Port:</label>
+            <label for="target_port">Local Port:</label>
             <input type="text" id="target_port" name="target_port" required>
             <br><br>
-            <label for="ip">Target IP:</label>
+            <label for="ip">Local IP:</label>
             <input type="text" id="ip" name="ip" required>
             <br><br>
             <button type="submit">Add Port</button>
